@@ -58,7 +58,6 @@ store.subscribe(paintTodos);
 
 const onSubmit = e => {
     e.preventDefault();
-
     const todo = input.value;
     input.value = "";
     dispatchAddTodo(todo);
